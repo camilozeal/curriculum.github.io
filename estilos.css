@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	position: absolute;
+	
+}
+.header {
+	padding: 5% 5% 5% 5%;
+	text-align: center;
+}
+.header img{
+	width: 200px;
+	border-radius: 50%;
+	border: 10px solid #ededed;
+}
+h2 {
+	color: #ff441e;
+}
+.line{
+	width: 100%;
+	height: 3px;
+	background-color: #ededed;
+	text-align: center;
+	margin: 20px 0px 30px 0px;
+	padding: 0;
+}
+
+.row{
+	width: 90%;
+	height: 1100px;
+	padding: 10%;
+	box-sizing: border-box;
+	margin: -15% 5% 0% 5%;
+	background-color: white;
+	
+}
+.acerca{
+	width: 570px;
+	float: left;
+	margin-left: 30px;
+}
+.contacto{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+}
+.educacion{
+	width: 570px;
+	float: left;
+	margin-left: 30px;
+}
+.skillz{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+.experiencia{
+	width: 570px;
+	float: left;
+	margin-left: 30px;
+}
+.idiomas{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+.hobbies{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+footer{
+	clear: both;
+	background-color: #eeeeee;
+	height: 70px;
+	text-align: center;
+	padding-top: 15px;
+	
+}
+
+.descripcion h4{
+	float: left;
+	width: 15%;
+}
+.descripcion p{
+	float: left;
+	width: 80%;
+	background-color: #eeeeee;
+	padding: 10px;
+}
+.skillz p{
+	background-color: #ff441e;
+	padding: 5px 5px 5px 10px;
+	color: white;
+}
+.html {
+	background-color: #ff441e;
+	width: 50%;
+	color: white;
+}
+.css {
+	background-color: #ff441e;
+	width: 60%;
+	color: white;
+}
+.js {
+	background-color: #ff441e;
+	width: 30%;
+	color: white;
+}
+.ai {
+	background-color: #ff441e;
+	width: 90%;
+	color: white;
+}
+.ps {
+	background-color: #ff441e;
+	width: 80%;
+	color: white;
+}
+.desperiencia h4{
+}
+.desperiencia h5{
+	margin: 0px;
+	float: left;
+	width: 90px;
+}
+.desperiencia p{
+	float: left;
+	width: 80%;
+	background-color: white;
+	padding: 10px;
+}
+.hobbies h4{
+	float: left;
+	color: white;
+	background-color: #b8475e;
+	width: 90px;
+	height: 40px;
+	padding: 8px;
+	box-sizing: border-box;
+	margin-left: 5px;
+	font-size: 10pt;
+
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,{
+	float: left;
+}
+@media(max-width: 480px){
+
+	.col-sm-1{
+		width: 10%;
+	}
+	.col-sm-2{
+		width: 20%;
+	}
+	.col-sm-3{
+		width: 30%;
+	}
+	.col-sm-4{
+		width: 40%;
+	}
+	.col-sm-5{
+		width: 50%;
+	}
+	.col-sm-6{
+		width: 60%;
+	}
+	.col-sm-7{
+		width: 70%;
+	}
+	.col-sm-8{
+		width: 80%;
+	}
+	.col-sm-9{
+		width: 90%;
+	}
+	.col-sm-10{
+		width: 100%;
+	}
+}
+
+@media(max-width: 760px){
+
+	.col-md-1{
+		width: 10%;
+	}
+	.col-md-2{
+		width: 20%;
+	}
+	.col-md-3{
+		width: 30%;
+	}
+	.col-md-4{
+		width: 40%;
+	}
+	.col-md-5{
+		width: 50%;
+	}
+	.col-md-6{
+		width: 60%;
+	}
+	.col-md-7{
+		width: 70%;
+	}
+	.col-md-8{
+		width: 80%;
+	}
+	.col-md-9{
+		width: 90%;
+	}
+	.col-md-10{
+		width: 100%;
+	}
+}
